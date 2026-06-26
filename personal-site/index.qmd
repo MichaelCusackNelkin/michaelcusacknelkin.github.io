@@ -7,10 +7,10 @@ about:
   links:
     - icon: google
       text: Email
-      href: mc5882@columbia.edu
+      href: mailto:mc5882@columbia.edu
     - icon: linkedin
       text: LinkedIn
-      href: www.linkedin.com/in/michael-cusack-nelkin
+      href: https://www.linkedin.com/in/michael-cusack-nelkin/
     - icon: github
       text: Github
       href: https://github.com/MichaelCusackNelkin?tab=repositories
