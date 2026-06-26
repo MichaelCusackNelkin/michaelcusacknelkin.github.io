@@ -1,0 +1,35 @@
+---
+title: "Michael Cusack-Nelkin"
+subtitle: "Master's Student | Mathematics of Finance | Columbia University"
+about:
+  template: solana
+  image: profile.jpg
+  links:
+    - icon: google
+      text: Email
+      href: mc5882@columbia.edu
+    - icon: linkedin
+      text: LinkedIn
+      href: www.linkedin.com/in/michael-cusack-nelkin
+    - icon: github
+      text: Github
+      href: https://github.com/MichaelCusackNelkin?tab=repositories
+---
+
+I am a master's student in the [Mathematics of Finance (MAFN)](https://www.math.columbia.edu/mafn/) program at [Columbia University](https://www.columbia.edu/). Prior to joining Columbia, I worked at Deloitte Consulting LLP for three years. My research focuses on constructing **optimal equity portfolios** using return forecasts, covariance and volatility estimates, and trading cost models. My favorite things to do outside of research are to read The Lord of the Rings, solve problems on [Project Euler](https://projecteuler.net/), and hangout with my wife and puppy.
+
+## Education
+
+Columbia University | New York City, NY
+M.A in Mathematics | Aug 2025 - Dec 2026
+
+The College of William & Mary | Williamsburg, VA
+B.S in Physics | Aug 2018 - May 2022
+
+## Research Interests
+
+- Optimal Portfolio Construction
+- Forecasting
+- Covariance Estimation
+- Impact Modeling
+- Optimal Execution

@@ -1,0 +1,9 @@
+---
+title: "Research and Publications"
+listing:
+  contents: publications.yml
+  type: default
+  sort: "date desc"
+  categories: true
+  fields: [title, author, date, description, categories]
+---

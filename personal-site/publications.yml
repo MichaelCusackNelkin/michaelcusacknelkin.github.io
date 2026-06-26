@@ -1,0 +1,21 @@
+- title: "Adaptive Execution Strategies Lead to Robust Improvements Over Naive Benchmark"
+  path: publications/saf_whitepaper.pdf
+  author: "Michael Cusack-Nelkin"
+  date: "2026-06-26"
+  description: >
+    Designed an adaptive execution strategy using L2 order book data and an
+    execution simulator to test it. The simulator can simulate the fills and
+    impact of any generic fill strategy using market orders, resting limit
+    orders, and IOC limit orders in the presence of variable latency and book
+    resilience (modeled as a Poisson process). The final strategy offered large
+    improvements over naive strategies, using microstructure signals to adapt
+    fill aggression.
+  categories: [Market Microstructure, Execution]
+
+- title: "Optimal Portfolio Construction"
+  path: ""
+  author: "Michael Cusack-Nelkin"
+  date: "2026-05-01"
+  description: >
+    Working paper on optimal portfolio construction.
+  categories: [Portfolio Optimization]

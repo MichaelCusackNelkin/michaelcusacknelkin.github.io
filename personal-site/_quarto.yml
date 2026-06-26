@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: ""
+  navbar:
+    right:
+      - href: index.qmd
+        text: about
+      - href: research.qmd
+        text: research
+      - href: cv.qmd
+        text: cv
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+
