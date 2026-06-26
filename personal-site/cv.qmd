@@ -17,29 +17,26 @@ format:
 
 ## Education
 
-**Columbia University** | New York City, NY | Aug 2025 - Dec 2026
-
-*M.A in Mathematics of Finance*
+**Columbia University** | **M.A in Mathematics of Finance** | New York City, NY | Aug 2025 - Dec 2026
 
 * GPA: 3.57 / 4.00
 * Coursework: Statistical Aspects of Finance, Algorithmic Trading, Linear Regression Models, Advanced Machine Learning for Finance
 
-**The College of William & Mary** | Williamsburg, VA | Aug 2018 - May 2022
-
-*B.S in Physics, Minors in Data Science and Mathematics*
+**The College of William & Mary** | **B.S in Physics** | Williamsburg, VA | Aug 2018 - May 2022
 
 * GPA: 3.72 / 4.0
+* Minors in Data Science and Mathematics
 * Coursework: Advanced Applied Machine Learning, Quantum Mechanics I & II, Fluid Mechanics
 * Honors: Dean's List, Magna Cum Laude
 
 ## Research and Publications
 
-[*Optimal Portfolio Construction*]() | May 2026 - Present
+[{{<ai arxiv>}} **Optimal Portfolio Construction**]() | May 2026 - Present
 
 * **Lead Author** – Working paper. Optimal portfolio construction.
 
 
-[*Adaptive Execution Strategies Lead to Robust Improvements Over Naive Benchmark*](publications/saf_whitepaper.pdf)
+[**Adaptive Execution Strategies Lead to Robust Improvements Over Naive Benchmark**](publications/saf_whitepaper.pdf)
 
 * **Lead Author** – Designed an adaptive execution strategy using L2 order book data and an execution simulator to test it. The simulator can simulate the fills and impact of any generic fill strategy using market orders, resting limit orders, and IOC limit orders in the presences of variable latency, and book resilience (modeled as a Poisson process). Final strategy offered large improvements over naive strategies, using microstructure signals to adapt fill agrression.
 
