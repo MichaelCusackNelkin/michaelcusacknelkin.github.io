@@ -4,6 +4,7 @@ project:
 
 website:
   title: ""
+  favicon: favicon.png
   navbar:
     background: dark
     right:
@@ -14,9 +15,8 @@ website:
       - href: cv.qmd
         text: cv
   page-footer:
-    background: dark # Options: light, dark, primary, or none
+    # background: light # Options: light, dark, primary, or none
     left: "© 2026 Michael Cusack-Nelkin"
-    right: "Powered by [Quarto](https://quarto.org/)"
 
 format:
   html:

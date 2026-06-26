@@ -15,5 +15,5 @@ about:
       text: Github
       href: https://github.com/MichaelCusackNelkin?tab=repositories
 ---
-### about me
+
 I am a master's student in the [Mathematics of Finance (MAFN)](https://www.math.columbia.edu/mafn/) program at [Columbia University](https://www.columbia.edu/). Prior to joining Columbia, I worked at Deloitte Consulting LLP for three years. My research focuses on constructing **optimal equity portfolios** using return forecasts, covariance and volatility estimates, and trading cost models. My favorite things to do outside of research are to read *The Lord of the Rings*, solve problems on [Project Euler](https://projecteuler.net/), boulder, and hangout with my wife and puppy.
