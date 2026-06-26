@@ -39,7 +39,7 @@
     "href": "research.html",
     "title": "Research and Publications",
     "section": "",
-    "text": "Adaptive Execution Strategies Lead to Robust Improvements Over Naive Benchmark\n\n\n\nMarket Microstructure\n\nExecution\n\n\n\nDesigned an adaptive execution strategy using L2 order book data and an execution simulator to test it. The simulator can simulate the fills and impact of any generic fill strategy using market orders, resting limit orders, and IOC limit orders in the presence of variable latency and book resilience (modeled as a Poisson process). The final strategy offered large improvements over naive strategies, using microstructure signals to adapt fill aggression.\n\n\n\n\n\nJun 26, 2026\n\n\nMichael Cusack-Nelkin\n\n\n\n\n\n\n\nOptimal Portfolio Construction\n\n\n\nPortfolio Optimization\n\n\n\nWorking paper on optimal portfolio construction.\n\n\n\n\n\nMay 1, 2026\n\n\nMichael Cusack-Nelkin\n\n\n\n\n\nNo matching items"
+    "text": "Adaptive Execution Strategies Lead to Robust Improvements Over Naive Benchmark\n\n\n\nMarket Microstructure\n\nExecution\n\n\n\nDesigned an adaptive execution strategy using L2 order book data and an execution simulator to test it. The simulator can simulate the fills and impact of any generic fill…\n\n\n\nMichael Cusack-Nelkin\n\n\nJun 26, 2026\n\n\n\n\n\n\n\n\n\n\nOptimal Portfolio Construction\n\n\n\nPortfolio Optimization\n\n\n\nWorking paper on optimal portfolio construction.\n\n\n\nMichael Cusack-Nelkin\n\n\nMay 1, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
