@@ -4,6 +4,6 @@ listing:
   contents: publications.yml
   type: default
   sort: "date desc"
-  categories: true
+  categories: false
   fields: [title, author, date, description, categories]
 ---
