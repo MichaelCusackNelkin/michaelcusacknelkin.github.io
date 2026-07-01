@@ -1,14 +1,17 @@
 ---
-title: "Curriculum Vitae"
 format:
-  html: default
+  html:
+    title: "Curriculum Vitae"
   typst:
+    title: "Michael Cusack-Nelkin"
+    subtitle: "[mc5882@gmail.com](mailto:mc5882.com) | [michaelcusacknelkin.github.io](https://michaelcusacknelkin.github.io)"
+    linkcolor: "blue"
     papersize: us-letter
     margin:
       x: 1.5cm
       y: 1.5cm
     fontsize: 10pt
-    section-numbering: ""
+    number-sections: false
 ---
 
 <!-- ::: {.content-visible when-format="html"}
@@ -58,6 +61,6 @@ format:
 
 **Millennium x Columbia University Trading Competition** | New York, NY
 
-*ETF Arbitrage Simulation* | Aug 2025
+*ETF Arbitrage Competition* | Aug 2025
 
 * **Leadership** – Led a team of four at an Millennium Managment ETF arbitrage competition for Mathematics of Finance students. Achieved 1st place measured by risk-adjusted returns.
