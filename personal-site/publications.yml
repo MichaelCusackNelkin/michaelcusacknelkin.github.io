@@ -17,10 +17,10 @@
   author: "Michael Cusack-Nelkin"
   date: "2026-05-01"
   description: >
-    Built a full statistical arbitrage system around the Nasdaq closing auction imbalance
-    based on single-period optimization with an alpha forecast, covariacne model, 
-    instantaneous impact model. The forecast holds a 29% out-of-sample rank IC through 
+    Built and backtested a statistical arbitrage system around the Nasdaq closing auction imbalance
+    based on single-period optimization with an alpha forecast, covariance model, 
+    and instantaneous impact model. The forecast holds a 29% out-of-sample rank IC through 
     rolling cross-validation, and the strategy backtests to a Sharpe of 8.44 at $60M
-    GMV, with tight capacity and latency limits that make it best suited to an
-    execution pipeline serving a larger portfolio.
+    GMV. The strategy is subject to tight capacity and latency limits that make it 
+    best suited to an execution pipeline serving a larger portfolio.
   categories: [Auction Imbalance, Portfolio Optimization, Capacity Estimation]

@@ -34,9 +34,14 @@ format:
 
 ## Research and Publications
 
-[{{<ai arxiv>}} **Optimal Portfolio Construction**]() | May 2026 - Present
+[{{<ai arxiv>}} **High Sharpe, Low Capacity: Optimally Trading the Nasdaq Closing Auction Imbalance**]() | May 2026 - Present
 
-* **Lead Author** – Working paper. Optimal portfolio construction.
+* **Lead Author** – Built and backtested a statistical arbitrage system around the Nasdaq closing auction imbalance
+    based on single-period optimization with an alpha forecast, covariance model, 
+    and instantaneous impact model. The forecast holds a 29% out-of-sample rank IC through 
+    rolling cross-validation, and the strategy backtests to a Sharpe of 8.44 at $60M
+    GMV. The strategy is subject to tight capacity and latency limits that make it best suited to an
+    execution pipeline serving a larger portfolio.
 
 
 [**Adaptive Execution Strategies Lead to Robust Improvements Over Naive Benchmark**](publications/saf_whitepaper.pdf)
