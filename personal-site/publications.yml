@@ -12,10 +12,15 @@
     fill aggression.
   categories: [Market Microstructure, Execution]
 
-- title: "Optimal Portfolio Construction"
-  path: ""
+- title: "High Sharpe, Low Capacity: Optimally Trading the Nasdaq Closing Auction Imbalance"
+  path: publications/auction_whitepaper.pdf
   author: "Michael Cusack-Nelkin"
   date: "2026-05-01"
   description: >
-    Working paper on optimal portfolio construction.
-  categories: [Portfolio Optimization]
+    Built a full statistical arbitrage system around the Nasdaq closing auction imbalance
+    based on single-period optimization with an alpha forecast, covariacne model, 
+    instantaneous impact model. The forecast holds a 29% out-of-sample rank IC through 
+    rolling cross-validation, and the strategy backtests to a Sharpe of 8.44 at $60M
+    GMV, with tight capacity and latency limits that make it best suited to an
+    execution pipeline serving a larger portfolio.
+  categories: [Auction Imbalance, Portfolio Optimization, Capacity Estimation]

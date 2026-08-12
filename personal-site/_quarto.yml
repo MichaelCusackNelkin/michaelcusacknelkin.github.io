@@ -4,10 +4,10 @@ project:
 
 website:
   title: ""
-  favicon: favicon.png
+  favicon: favicons/favicon_mccn_clear.png
   navbar:
     background: dark
-    logo: favicon.png
+    logo: favicons/favicon_mccn_clear.png
     right:
       - href: index.qmd
         text: about
