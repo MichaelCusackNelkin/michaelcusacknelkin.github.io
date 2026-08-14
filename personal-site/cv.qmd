@@ -34,7 +34,7 @@ format:
 
 ## Research and Publications
 
-[{{<ai arxiv>}} **High Sharpe, Low Capacity: Optimally Trading the Nasdaq Closing Auction Imbalance**]() | May 2026 - Present
+[{{<ai arxiv>}} **High Sharpe, Low Capacity: Optimally Trading the Nasdaq Closing Auction Imbalance**](publications/auction_whitepaper.pdf) | May 2026 - Present
 
 * **Lead Author** – Built and backtested a statistical arbitrage system around the Nasdaq closing auction imbalance
     based on single-period optimization with an alpha forecast, covariance model, 
