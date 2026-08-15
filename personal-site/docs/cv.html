@@ -183,15 +183,11 @@ ul.task-list li input[type="checkbox"] {
 <section id="work-experience" class="level2">
 <h2 class="anchored" data-anchor-id="work-experience">Work Experience</h2>
 <p><strong>Deloitte Consulting</strong> | Austin, TX</p>
-<p><em>Deloitte Quantum AI Analyst</em> | Jan 2023 - Dec 2024</p>
-<ul>
-<li><strong>Client Pitching</strong> – Pitched the firm’s quantum computation and optimization capabilities in presentations to commercial clients from the finance and logistics sectors.</li>
-<li><strong>Quantum Optimization</strong> – Built and presented Python demonstrations of Grover’s quantum search algorithm using IBM Qiskit in Python and IBM simulators and quantum hardware.</li>
-</ul>
 <p><em>Business Technology Analyst, AI and Data</em> | Oct 2022 - Jun 2025</p>
 <ul>
 <li><strong>Tech Infrastructure</strong> – Built modern web infrastructure for the Texas Office of the Inspector General, allowing them to more effectively manage, report, and archive $140,000,000 of annual Medicaid fraud recoveries.</li>
 <li><strong>Team Leadership</strong> – Led a team of four software developers and testers and shipped a case processing system for Texas OIG to recover $10,000,000 of previously unrecoverable fraudulent claims upon deployment in 2023.</li>
+<li><strong>Quantum Computation</strong> – Built and presented demonstrations of Grover’s quantum search algorithm written with the IBM Qiskit Python libarary, and ran on IBM simulators and quantum hardware.</li>
 </ul>
 </section>
 <section id="competitions" class="level2">
@@ -279,7 +275,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/MichaelCusackNelkin\.github\.io\/michaelcusacknelkin\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
