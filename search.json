@@ -18,7 +18,7 @@
     "href": "cv.html#research-and-publications",
     "title": "Curriculum Vitae",
     "section": "Research and Publications",
-    "text": "Research and Publications\nHigh Sharpe, Low Capacity: Optimally Trading the Nasdaq Closing Auction Imbalance | May 2026 - Present\n\nLead Author - Built and backtested a statistical arbitrage system around the Nasdaq closing auction imbalance based on single-period optimization with an alpha forecast, covariance model, and instantaneous impact model. The forecast holds a 29.6% out-of-sample rank IC through rolling cross-validation, and the strategy backtests to a Sharpe of 8.53 at $91.3M GMV. The strategy is subject to tight capacity and latency limits that make it best suited to an execution pipeline serving a larger portfolio.\n\nAdaptive Execution Strategies Lead to Robust Improvements Over Naive Benchmark\n\nLead Author - Designed an adaptive execution strategy using L2 order book data and an execution simulator to test it. The simulator can simulate the fills and impact of any generic fill strategy using market orders, resting limit orders, and IOC limit orders in the presences of variable latency, and book resilience (modeled as a Poisson process). Final strategy offered large improvements over naive strategies, using microstructure signals to adapt fill aggression."
+    "text": "Research and Publications\nHigh Sharpe, Low Capacity: Optimally Trading the Nasdaq Closing Auction Imbalance | Summer 2026\n\nLead Author - Built and backtested a statistical arbitrage system around the Nasdaq closing auction imbalance based on single-period optimization with an alpha forecast, covariance model, and instantaneous impact model. The forecast holds a 29.6% out-of-sample rank IC through rolling cross-validation, and the strategy backtests to a Sharpe of 8.53 at $91.3M GMV. The strategy is subject to tight capacity and latency limits that make it best suited to an execution pipeline serving a larger portfolio.\n\nAdaptive Execution Strategies Lead to Robust Improvements Over Naive Benchmark | Spring 2026\n\nLead Author - Designed an adaptive execution strategy using L2 order book data and an execution simulator to test it. The simulator can simulate the fills and impact of any generic fill strategy using market orders, resting limit orders, and IOC limit orders in the presences of variable latency, and book resilience (modeled as a Poisson process). Final strategy offered large improvements over naive strategies, using microstructure signals to adapt fill aggression."
   },
   {
     "objectID": "cv.html#work-experience",
@@ -32,7 +32,7 @@
     "href": "cv.html#competitions",
     "title": "Curriculum Vitae",
     "section": "Competitions",
-    "text": "Competitions\nMillennium x Columbia University Trading Competition | New York, NY\nETF Arbitrage Competition | Aug 2025\n\nLeadership - Led a team of four at a Millennium Managment ETF arbitrage competition for M.A. Mathematics of Finance students. Achieved 1st place, measured by risk-adjusted returns."
+    "text": "Competitions\nMillennium x Columbia University Trading Competition | New York, NY\n\nLeadership - Led a team of four at a Millennium Managment ETF arbitrage competition for M.A. Mathematics of Finance students. Achieved 1st place, measured by risk-adjusted returns."
   },
   {
     "objectID": "research.html",
