@@ -4,3 +4,11 @@
   max-height: 60px; /* Change this value to your preferred size */
   width: auto;
 }
+
+.wife, .puppy {
+  color: var(--bs-link-color);
+  cursor: pointer;
+  text-decoration: underline dotted;
+}
+.about-entity:has(.wife:hover) .about-image { content: url("images/wife.jpeg"); }
+.about-entity:has(.puppy:hover)  .about-image { content: url("images/alfie.jpeg"); }
