@@ -18,21 +18,21 @@
     "href": "cv.html#research-and-publications",
     "title": "Curriculum Vitae",
     "section": "Research and Publications",
-    "text": "Research and Publications\nHigh Sharpe, Low Capacity: Optimally Trading the Nasdaq Closing Auction Imbalance | Summer 2026\n\nLead Author - Built and backtested a statistical arbitrage system around the Nasdaq closing auction imbalance based on single-period optimization with an alpha forecast, covariance model, and instantaneous impact model. The forecast holds a 29.6% out-of-sample rank IC through rolling cross-validation, and the strategy backtests to a Sharpe of 8.53 at $91.3M GMV. The strategy is subject to tight capacity and latency limits that make it best suited to an execution pipeline serving a larger portfolio.\n\nAdaptive Execution Strategies Lead to Robust Improvements Over Naive Benchmark | Spring 2026\n\nLead Author - Designed an adaptive execution strategy using L2 orderbook data and an execution simulator to test it. The simulator tracked the costs and price impact of any generic fill strategy comprising market orders, resting limit orders, and IOC-limit orders under variable latency and book resilience (modeled as a Poisson process). The final execution strategy used orderbook imbalance to adapt meta-order fill aggression and offered a large improvement over naive approaches."
+    "text": "Research and Publications\nHigh Sharpe, Low Capacity: Optimally Trading the Nasdaq Closing Auction Imbalance | Summer 2026\n\nBuilt and backtested a statistical arbitrage system around the Nasdaq closing auction imbalance based on single-period optimization with an alpha forecast, covariance model, and instantaneous impact model. The forecast holds a 29.6% out-of-sample rank IC through rolling cross-validation, and the strategy backtests to a Sharpe of 8.53 at $91.3M GMV. The strategy is subject to tight capacity and latency limits that make it best suited to an execution pipeline serving a larger portfolio.\n\nAdaptive Execution Strategies Lead to Robust Improvements Over Naive Benchmark | Spring 2026\n\nDesigned an adaptive execution strategy using L2 orderbook data and an execution simulator to test it. The simulator tracked the costs and price impact of any generic fill strategy comprising market orders, resting limit orders, and IOC-limit orders under variable latency and book resilience (modeled as a Poisson process). The final execution strategy used orderbook imbalance to adapt meta-order fill aggression and offered a large improvement over naive approaches."
   },
   {
     "objectID": "cv.html#work-experience",
     "href": "cv.html#work-experience",
     "title": "Curriculum Vitae",
     "section": "Work Experience",
-    "text": "Work Experience\nDeloitte Consulting | Business Technology Analyst - State of Texas | Austin, TX | Oct 2022 - Jun 2025\n\nTeam Leadership - Led a team of four software developers and testers shipping a fraud recovery system for the Texas Office of the Inspector General. Our work led to the client recovering $10,000,000 of previously unrecoverable fraudulent claims.\nClient Relationships - Presented technical work to clients on a weekly basis, maintaining stakeholder buy-in throughout the development and testing process.\nProcess Management - Owned the drafting and maintenance of a source-of-truth distributed systems diagram as the project grew from 30 to 400+ team members and the scope of work shifted."
+    "text": "Work Experience\nDeloitte Consulting | Business Technology Analyst - State of Texas | Austin, TX | Oct 2022 - Jun 2025\n\nLed a team of four software developers and testers shipping a fraud recovery system for the Texas Office of the Inspector General. Our work led to the client recovering $10,000,000 of previously unrecoverable fraudulent claims.\nPresented technical work to clients on a weekly basis, maintaining stakeholder buy-in throughout the development and testing process.\nOwned the drafting and maintenance of a source-of-truth distributed systems diagram as the project grew from 30 to 400+ team members and the scope of work shifted."
   },
   {
     "objectID": "cv.html#competitions",
     "href": "cv.html#competitions",
     "title": "Curriculum Vitae",
     "section": "Competitions",
-    "text": "Competitions\nMillennium x Columbia University Trading Competition | New York, NY\n\nLeadership - Led a team of four at a Millennium Management ETF arbitrage competition for M.A. Mathematics of Finance students.\nCompetitive Results - The team achieved low PnL with a modest simulated Sharpe ratio of 1.5 to win the competition."
+    "text": "Competitions\nMillennium x Columbia University Trading Competition | New York, NY\n\nLed a team of four at a Millennium Management ETF arbitrage competition for M.A. Mathematics of Finance students.\nThe team achieved low PnL with a modest simulated Sharpe ratio of 1.5 to win the competition."
   },
   {
     "objectID": "research.html",
