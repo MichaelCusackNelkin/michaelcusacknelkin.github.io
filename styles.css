@@ -12,3 +12,10 @@
 }
 .about-entity:has(.wife:hover) .about-image { content: url("images/wife.jpeg"); }
 .about-entity:has(.puppy:hover)  .about-image { content: url("images/alfie.jpeg"); }
+
+/* reading list: keep book covers uncropped inside grid cards */
+.quarto-grid-item img.thumbnail-image {
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+}
