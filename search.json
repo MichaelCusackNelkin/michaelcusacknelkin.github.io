@@ -4,14 +4,21 @@
     "href": "cv.html",
     "title": "Curriculum Vitae",
     "section": "",
-    "text": "Columbia University | M.A. in Mathematics of Finance | New York, NY | Aug 2025 - Dec 2026\n\nGPA: 3.57 / 4.00\nCoursework: Statistical Aspects of Finance, Algorithmic Trading, Linear Regression Models, Advanced Machine Learning for Finance\n\nThe College of William & Mary | B.S. in Physics | Williamsburg, VA | Aug 2018 - May 2022\n\nGPA: 3.72 / 4.00\nMinors in Data Science and Mathematics\nCoursework: Advanced Applied Machine Learning, Quantum Mechanics I & II, Fluid Mechanics\nHonors: Dean’s List, magna cum laude"
+    "text": "Columbia University | M.A. in Mathematics of Finance | New York, NY | Aug 2025 - Dec 2026\n\nGPA: 3.57 / 4.00\nCoursework: Statistical Aspects of Finance, Linear Regression Models, Neural Networks and Deep Learning\n\nThe College of William & Mary | B.S. in Physics | Williamsburg, VA | Aug 2018 - May 2022\n\nGPA: 3.72 / 4.00\nMinors in Data Science and Mathematics\nCoursework: Advanced Applied Machine Learning, Quantum Mechanics I & II, Fluid Mechanics\nHonors: Dean’s List, magna cum laude"
   },
   {
     "objectID": "cv.html#education",
     "href": "cv.html#education",
     "title": "Curriculum Vitae",
     "section": "",
-    "text": "Columbia University | M.A. in Mathematics of Finance | New York, NY | Aug 2025 - Dec 2026\n\nGPA: 3.57 / 4.00\nCoursework: Statistical Aspects of Finance, Algorithmic Trading, Linear Regression Models, Advanced Machine Learning for Finance\n\nThe College of William & Mary | B.S. in Physics | Williamsburg, VA | Aug 2018 - May 2022\n\nGPA: 3.72 / 4.00\nMinors in Data Science and Mathematics\nCoursework: Advanced Applied Machine Learning, Quantum Mechanics I & II, Fluid Mechanics\nHonors: Dean’s List, magna cum laude"
+    "text": "Columbia University | M.A. in Mathematics of Finance | New York, NY | Aug 2025 - Dec 2026\n\nGPA: 3.57 / 4.00\nCoursework: Statistical Aspects of Finance, Linear Regression Models, Neural Networks and Deep Learning\n\nThe College of William & Mary | B.S. in Physics | Williamsburg, VA | Aug 2018 - May 2022\n\nGPA: 3.72 / 4.00\nMinors in Data Science and Mathematics\nCoursework: Advanced Applied Machine Learning, Quantum Mechanics I & II, Fluid Mechanics\nHonors: Dean’s List, magna cum laude"
+  },
+  {
+    "objectID": "cv.html#work-experience",
+    "href": "cv.html#work-experience",
+    "title": "Curriculum Vitae",
+    "section": "Work Experience",
+    "text": "Work Experience\nDeloitte Consulting | Business Technology Analyst - State of Texas | Austin, TX | Oct 2022 - Jun 2025\n\nLed a team of four software developers and testers shipping a fraud recovery system for the Texas Office of the Inspector General. Our work led to the client recovering $10,000,000 of previously unrecoverable fraudulent claims.\nPresented technical work to clients on a daily basis, maintaining buy-in throughout the development and testing process.\nOwned the drafting and maintenance of a source-of-truth distributed systems plan, as well as hardware distrubution processes, as the project grew from 30 to 400+ team members and the scope of work shifted.\n\nDLA Piper | Financial Analyst Intern | New York, NY | Jun 2020 - Sept 2020\n\nMaintained tracking of profit and billing data for DLA Piper’s finance practice.\nProvided weekly reports to leadership, including detailed profitability trends extracted from the firm’s internal financial models."
   },
   {
     "objectID": "cv.html#research-and-publications",
@@ -21,25 +28,18 @@
     "text": "Research and Publications\nHigh Sharpe, Low Capacity: Optimally Trading the Nasdaq Closing Auction Imbalance | Summer 2026\n\nBuilt and backtested a statistical arbitrage system around the Nasdaq closing auction imbalance based on single-period optimization with an alpha forecast, covariance model, and instantaneous impact model. The forecast holds a 29.6% out-of-sample rank IC through rolling cross-validation, and the strategy backtests to a Sharpe of 8.53 at $91.3M GMV. The strategy is subject to tight capacity and latency limits that make it best suited to an execution pipeline serving a larger portfolio.\n\nAdaptive Execution Strategies Lead to Robust Improvements Over Naive Benchmark | Spring 2026\n\nDesigned an adaptive execution strategy using L2 orderbook data and an execution simulator to test it. The simulator tracked the costs and price impact of any generic fill strategy comprising market orders, resting limit orders, and IOC-limit orders under variable latency and book resilience (modeled as a Poisson process). The final execution strategy used orderbook imbalance to adapt meta-order fill aggression and offered a large improvement over naive approaches."
   },
   {
-    "objectID": "cv.html#work-experience",
-    "href": "cv.html#work-experience",
-    "title": "Curriculum Vitae",
-    "section": "Work Experience",
-    "text": "Work Experience\nDeloitte Consulting | Business Technology Analyst - State of Texas | Austin, TX | Oct 2022 - Jun 2025\n\nLed a team of four software developers and testers shipping a fraud recovery system for the Texas Office of the Inspector General. Our work led to the client recovering $10,000,000 of previously unrecoverable fraudulent claims.\nPresented technical work to clients on a weekly basis, maintaining stakeholder buy-in throughout the development and testing process.\nOwned the drafting and maintenance of a source-of-truth distributed systems diagram as the project grew from 30 to 400+ team members and the scope of work shifted."
-  },
-  {
     "objectID": "cv.html#competitions",
     "href": "cv.html#competitions",
     "title": "Curriculum Vitae",
     "section": "Competitions",
-    "text": "Competitions\nMillennium x Columbia University Trading Competition | New York, NY\n\nLed a team of four at a Millennium Management ETF arbitrage competition for M.A. Mathematics of Finance students.\nThe team achieved low PnL with a modest simulated Sharpe ratio of 1.5 to win the competition."
+    "text": "Competitions\nMillennium x Columbia University Trading Competition | New York, NY\n\nLed a team of four to win a Millennium Management ETF arbitrage competition for Columbia students.\nThe team achieved low PnL with a modest simulated Sharpe ratio of 1.5 to win the competition."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Michael Cusack-Nelkin",
     "section": "",
-    "text": "I am a master’s student in the Mathematics of Finance (MAFN) program at Columbia University. Prior to joining Columbia, I was a Business Technology Analyst at Deloitte Consulting LLP for three years. My past research focuses on constructing optimal equity portfolios using return forecasts, covariance and volatility estimates, and trading cost models. I am currently also interested in whether continual learning through memory-nets could lead to LLMs developing recursive self-improvement, and if so, how to prevent it with selective forgetfulness. My favorite things to do outside of research are to read The Lord of the Rings, listen to the Acquired Podcast, go bouldering, and enjoy life with my wife and puppy."
+    "text": "I am a master’s student in the Mathematics of Finance (MAFN) program at Columbia University graduating in December 2026. I am someone who thrives in leadership roles where I can combine technical rigor and management in a dynamic and fast moving environment. I am interested in a variety of financial and operational roles in areas including portfolio management, quantitative research, and program management. Prior to joining Columbia, I was a client-facing Business Technology Analyst at Deloitte Consulting LLP for three years, where I lead a team in delivering a fraud recovery system that resulted in $10M in client savings. My quantitative research focuses on constructing optimal equity portfolios using return forecasts and volatility estimation, and on adaptive execution strategies to reduce trading costs. My favorite things to do outside of work are to read The Lord of the Rings, listen to the Acquired Podcast, go bouldering, manage my own portfolio of long-term investments in compounding businesses, and enjoy life with my wife and puppy."
   },
   {
     "objectID": "research.html",
