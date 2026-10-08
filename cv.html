@@ -125,9 +125,9 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#education" id="toc-education" class="nav-link active" data-scroll-target="#education">Education</a></li>
-  <li><a href="#research-and-publications" id="toc-research-and-publications" class="nav-link" data-scroll-target="#research-and-publications">Research and Publications</a></li>
+  <li><a href="#research-and-competitions" id="toc-research-and-competitions" class="nav-link" data-scroll-target="#research-and-competitions">Research and Competitions</a></li>
   <li><a href="#work-experience" id="toc-work-experience" class="nav-link" data-scroll-target="#work-experience">Work Experience</a></li>
-  <li><a href="#competitions" id="toc-competitions" class="nav-link" data-scroll-target="#competitions">Competitions</a></li>
+  <li><a href="#technical-skills" id="toc-technical-skills" class="nav-link" data-scroll-target="#technical-skills">Technical Skills</a></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="cv.pdf"><i class="bi bi-file-pdf"></i>Typst</a></li></ul></div></nav>
     </div>
@@ -158,54 +158,57 @@ ul.task-list li input[type="checkbox"] {
 ::: -->
 <section id="education" class="level2">
 <h2 class="anchored" data-anchor-id="education">Education</h2>
-<p><strong>Columbia University</strong> | M.A.&nbsp;in Mathematics of Finance | New York, NY | Aug 2025 - Dec 2026</p>
+<p><strong>Columbia University</strong> | M.A.&nbsp;in Mathematics | New York, NY | Aug 2025 - Dec 2026</p>
 <ul>
-<li>GPA: 3.57 / 4.00</li>
-<li>Coursework: Statistical Aspects of Finance, Linear Regression Models, Neural Networks and Deep Learning</li>
+<li>Master’s in the Mathematics of Finance (MAFN)</li>
+<li>GPA: 3.6 / 4.00</li>
 </ul>
 <p><strong>The College of William &amp; Mary</strong> | B.S. in Physics | Williamsburg, VA | Aug 2018 - May 2022</p>
 <ul>
-<li>GPA: 3.72 / 4.00</li>
+<li>GPA: 3.7 / 4.00</li>
 <li>Minors in Data Science and Mathematics</li>
-<li>Coursework: Advanced Applied Machine Learning, Quantum Mechanics I &amp; II, Fluid Mechanics</li>
 <li>Honors: Dean’s List, <em>magna cum laude</em></li>
 </ul>
 </section>
-<section id="research-and-publications" class="level2">
-<h2 class="anchored" data-anchor-id="research-and-publications">Research and Publications</h2>
+<section id="research-and-competitions" class="level2">
+<h2 class="anchored" data-anchor-id="research-and-competitions">Research and Competitions</h2>
 <p><a href="publications/auction_whitepaper.pdf"><strong>High Sharpe, Low Capacity: Optimally Trading the Nasdaq Closing Auction Imbalance</strong></a> | Summer 2026</p>
 <ul>
-<li>Built and backtested a statistical arbitrage system around the Nasdaq closing auction imbalance based on single-period optimization with an alpha forecast, covariance model, and instantaneous impact model. The forecast holds a 29.6% out-of-sample rank IC through rolling cross-validation, and the strategy backtests to a Sharpe of 8.53 at $91.3M GMV. The strategy is subject to tight capacity and latency limits that make it best suited to an execution pipeline serving a larger portfolio.</li>
+<li>Built an end-to-end statistical-arbitrage system combining a return forecast, 10-factor covariance model, spread costs and price-impact estimates into a constrained portfolio optimization problem in Python using CVXPY.</li>
+<li>Backtested the strategy over 110 days and 100 stocks. Estimated an 8.53 Sharpe ratio at a maximum capacity of $91.3 million GMV.</li>
+<li>Identified fragility in capacity and latency requirements that favor use within a larger portfolio’s execution process.</li>
 </ul>
 <p><a href="publications/saf_whitepaper.pdf"><strong>Adaptive Execution Strategies Lead to Robust Improvements Over Naive Benchmark</strong></a> | Spring 2026</p>
 <ul>
-<li>Designed an adaptive execution strategy using L2 orderbook data and an execution simulator to test it. The simulator tracked the costs and price impact of any generic fill strategy comprising market orders, resting limit orders, and IOC-limit orders under variable latency and book resilience (modeled as a Poisson process). The final execution strategy used orderbook imbalance to adapt meta-order fill aggression and offered a large improvement over naive approaches.</li>
+<li>Co-developed an execution simulator using L2 Nasdaq order-book data, supporting market, resting-limit, and IOC orders under configurable latency and stochastic replenishment assumptions.</li>
+<li>Designed an execution strategy that used book-imbalance to adjust fill aggression and reduced simulated arrival costs by 55%-89% versus a naive benchmark across three studied assets.</li>
+</ul>
+<p><strong>Millennium x Columbia University Trading Competition</strong> | New York, NY</p>
+<ul>
+<li>Led a team of four to win a Millennium Management ETF arbitrage competition for Columbia students. Used a rolling z-score to estimate a hedging relationship between ETF and underlying components, and trade a synthetic basket f the underlyings and ETF.</li>
 </ul>
 </section>
 <section id="work-experience" class="level2">
 <h2 class="anchored" data-anchor-id="work-experience">Work Experience</h2>
-<p><strong>Deloitte Consulting</strong> | Business Technology Analyst - State of Texas | Austin, TX | Oct 2022 - Jun 2025</p>
+<p><strong>Deloitte Consulting</strong> | Strategy and Analytics Analyst - State of Texas | Austin, TX | Oct 2022 - Jun 2025</p>
 <ul>
-<li>Led a team of four software developers and testers shipping a fraud recovery system for the Texas Office of the Inspector General. Our work led to the client recovering $10,000,000 of previously unrecoverable fraudulent claims.</li>
-<li>Presented technical work to clients on a daily basis, maintaining buy-in throughout the development and testing process.</li>
-<li>Owned the drafting and maintenance of a source-of-truth distributed systems plan, as well as hardware distrubution processes, as the project grew from 30 to 400+ team members and the scope of work shifted.</li>
+<li>Led four developers and testers in delivering a fraud-recovery system for the Texas Office of Inspector General, contributing to the recovery of $10 million in previously unrecoverable fraudulent claims.</li>
+<li>Presented technical progress, design decisions, and testing results to a mixed audience of technical and non-technical clients multiple times per week, maintaining stakeholder support throughout development and implementation.</li>
+<li>Owned the project’s source-of-truth technology plan and hardware-distribution processes as the broader engagement expanded from approximately 30 to more than 400 team members.</li>
 </ul>
-<p><strong>DLA Piper</strong> | Financial Analyst Intern | New York, NY | Jun 2020 - Sept 2020</p>
+<p><strong>DLA Piper</strong> | Financial Analyst Intern | New York, NY | Jun 2020 - Sep 2020</p>
 <ul>
-<li>Maintained tracking of profit and billing data for DLA Piper’s finance practice.</li>
-<li>Provided weekly reports to leadership, including detailed profitability trends extracted from the firm’s internal financial models.</li>
+<li>Analyzed practice profitability and billing data and prepared weekly reports for finance leadership using the firm’s internal financial models.</li>
 </ul>
 <p><strong>Gilder, Gagnon, Howe &amp; Co.</strong> | Research Analyst Intern | New York, NY | Mar 2018 - Jun 2018</p>
 <ul>
-<li>Provided written analysis of publicly listed online gaming companies for Q1 2018. Wrote summaries of earnings calls, 10-K’s and 10-Q’s.</li>
-<li>Participated in investment committee meetings and portfolio company interviews across industries including media, agriculture, and biotechnology.</li>
+<li>Analyzed public online-gaming companies using earnings calls, 10-Ks, and 10-Qs. Wrote quarterly research summaries and participated in investment-committee meetings and portfolio-company interviews.</li>
 </ul>
 </section>
-<section id="competitions" class="level2">
-<h2 class="anchored" data-anchor-id="competitions">Competitions</h2>
-<p><strong>Millennium x Columbia University Trading Competition</strong> | New York, NY</p>
+<section id="technical-skills" class="level2">
+<h2 class="anchored" data-anchor-id="technical-skills">Technical Skills</h2>
 <ul>
-<li>Led a team of four to win a Millennium Management ETF arbitrage competition for Columbia students.</li>
+<li>Programming and Methods: Python, NumPy, Pandas, Polars, scikit-learn, statsmodels, XGBoost, CVXPY, Git, portfolio optimization, time-series cross-validation, factor-risk modeling, market-microstructure analysis, data cleaning and normalization, Quarto professional writing.</li>
 </ul>
 
 
