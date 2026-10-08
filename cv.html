@@ -125,8 +125,8 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#education" id="toc-education" class="nav-link active" data-scroll-target="#education">Education</a></li>
-  <li><a href="#work-experience" id="toc-work-experience" class="nav-link" data-scroll-target="#work-experience">Work Experience</a></li>
   <li><a href="#research-and-publications" id="toc-research-and-publications" class="nav-link" data-scroll-target="#research-and-publications">Research and Publications</a></li>
+  <li><a href="#work-experience" id="toc-work-experience" class="nav-link" data-scroll-target="#work-experience">Work Experience</a></li>
   <li><a href="#competitions" id="toc-competitions" class="nav-link" data-scroll-target="#competitions">Competitions</a></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="cv.pdf"><i class="bi bi-file-pdf"></i>Typst</a></li></ul></div></nav>
@@ -171,6 +171,17 @@ ul.task-list li input[type="checkbox"] {
 <li>Honors: Dean’s List, <em>magna cum laude</em></li>
 </ul>
 </section>
+<section id="research-and-publications" class="level2">
+<h2 class="anchored" data-anchor-id="research-and-publications">Research and Publications</h2>
+<p><a href="publications/auction_whitepaper.pdf"><strong>High Sharpe, Low Capacity: Optimally Trading the Nasdaq Closing Auction Imbalance</strong></a> | Summer 2026</p>
+<ul>
+<li>Built and backtested a statistical arbitrage system around the Nasdaq closing auction imbalance based on single-period optimization with an alpha forecast, covariance model, and instantaneous impact model. The forecast holds a 29.6% out-of-sample rank IC through rolling cross-validation, and the strategy backtests to a Sharpe of 8.53 at $91.3M GMV. The strategy is subject to tight capacity and latency limits that make it best suited to an execution pipeline serving a larger portfolio.</li>
+</ul>
+<p><a href="publications/saf_whitepaper.pdf"><strong>Adaptive Execution Strategies Lead to Robust Improvements Over Naive Benchmark</strong></a> | Spring 2026</p>
+<ul>
+<li>Designed an adaptive execution strategy using L2 orderbook data and an execution simulator to test it. The simulator tracked the costs and price impact of any generic fill strategy comprising market orders, resting limit orders, and IOC-limit orders under variable latency and book resilience (modeled as a Poisson process). The final execution strategy used orderbook imbalance to adapt meta-order fill aggression and offered a large improvement over naive approaches.</li>
+</ul>
+</section>
 <section id="work-experience" class="level2">
 <h2 class="anchored" data-anchor-id="work-experience">Work Experience</h2>
 <p><strong>Deloitte Consulting</strong> | Business Technology Analyst - State of Texas | Austin, TX | Oct 2022 - Jun 2025</p>
@@ -188,17 +199,6 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Provided written analysis of publicly listed online gaming companies for Q1 2018. Wrote summaries of earnings calls, 10-K’s and 10-Q’s.</li>
 <li>Participated in investment committee meetings and portfolio company interviews across industries including media, agriculture, and biotechnology.</li>
-</ul>
-</section>
-<section id="research-and-publications" class="level2">
-<h2 class="anchored" data-anchor-id="research-and-publications">Research and Publications</h2>
-<p><a href="publications/auction_whitepaper.pdf"><strong>High Sharpe, Low Capacity: Optimally Trading the Nasdaq Closing Auction Imbalance</strong></a> | Summer 2026</p>
-<ul>
-<li>Built and backtested a statistical arbitrage system around the Nasdaq closing auction imbalance based on single-period optimization with an alpha forecast, covariance model, and instantaneous impact model. The forecast holds a 29.6% out-of-sample rank IC through rolling cross-validation, and the strategy backtests to a Sharpe of 8.53 at $91.3M GMV. The strategy is subject to tight capacity and latency limits that make it best suited to an execution pipeline serving a larger portfolio.</li>
-</ul>
-<p><a href="publications/saf_whitepaper.pdf"><strong>Adaptive Execution Strategies Lead to Robust Improvements Over Naive Benchmark</strong></a> | Spring 2026</p>
-<ul>
-<li>Designed an adaptive execution strategy using L2 orderbook data and an execution simulator to test it. The simulator tracked the costs and price impact of any generic fill strategy comprising market orders, resting limit orders, and IOC-limit orders under variable latency and book resilience (modeled as a Poisson process). The final execution strategy used orderbook imbalance to adapt meta-order fill aggression and offered a large improvement over naive approaches.</li>
 </ul>
 </section>
 <section id="competitions" class="level2">
