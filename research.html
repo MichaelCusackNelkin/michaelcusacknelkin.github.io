@@ -227,7 +227,7 @@ window.Quarto = {
 
 </div>
 <div class="delink listing-description"><a href="publications/auction_whitepaper.pdf" class="no-external">
-<p>Built and backtested a statistical arbitrage system around the Nasdaq closing auction imbalance based on single-period optimization with an alpha forecast, covariance model, and instantaneous impact model, with an emphasis on characterizing robustness to latency and capacity limitations. The forecast holds a 29.6% out-of-sample IC through rolling cross-validation and a 100-stock 110-day backtest achieves a Sharpe ratio of 8.53 at optimal capacity of $91.3M GMV. The strategy is subject to tight capacity limits and is fragile to small changes in latency, implying that it may be most useful as part of an execution pipeline serving a larger portfolio.</p>
+<p>Built and backtested a statistical arbitrage system around the Nasdaq closing auction imbalance based on single-period optimization with an alpha forecast, covariance model, and instantaneous impact model. Particular emphasis is placed on optimal portfolio construction using CVXPY and characterizing robustness to latency and capacity limitations. The forecast holds a 29.6% out-of-sample IC through rolling cross-validation and a 100-stock 110-day backtest achieves a Sharpe ratio of 8.53 at optimal capacity of $91.3M GMV. We find that the strategy is subject to tight capacity limits and is fragile to small changes in latency, implying that it may be most useful as part of an execution pipeline serving a larger portfolio.</p>
 </a></div>
 </div>
 <div class="metadata">
@@ -254,7 +254,7 @@ Michael Cusack-Nelkin
 
 </div>
 <div class="delink listing-description"><a href="publications/saf_whitepaper.pdf" class="no-external">
-<p>Developed an adaptive equity-execution strategy and an event-driven simulator using level-two Nasdaq order-book data. The simulator models market, resting-limit, and immediate-or-cancel orders, along with configurable latency, market impact, and stochastic book replenishment. The strategy uses order-book imbalance to adjust fill aggression and reduced simulated arrival costs by 55%-89% relative to a naive benchmark across the three assets studied.</p>
+<p>Co-Developed an adaptive execution strategy and a fill simulator using level-two Nasdaq order book data. The simulator models market, resting-limit, and IOC orders, along with configurable latency and stochastic book replenishment. The execution strategy uses book imbalance to adjust fill aggression and reduced simulated arrival costs by 55%-89% relative to a naive benchmark across the three assets studied.</p>
 </a></div>
 </div>
 <div class="metadata">
