@@ -120,39 +120,40 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-solana column-body">
+<div class="quarto-about-trestles">
   <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
+    <img src="images/IMG_9747.jpeg" class="about-image
+  rounded " style="width: 20em;">
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Michael Cusack-Nelkin</h1>
 <p class="subtitle lead">Master’s Student | Mathematics of Finance | Columbia University</p>
 </div>
 <div class="quarto-title-meta">
   </div>
-</header> <div class="about-links">
+</header>
+    <div class="about-links">
   <a href="mailto:mc5882@columbia.edu" class="about-link" rel="" target="">
     <i class="bi bi-google"></i>
      <span class="about-link-text">Email</span>
   </a>
-  <a href="https://www.linkedin.com/in/michael-cusack-nelkin/" class="about-link" rel="" target="">
+  <a href="https://www.linkedin.com/in/michael-cusack-nelkin/" class="about-link" rel="noopener" target="_blank">
     <i class="bi bi-linkedin"></i>
      <span class="about-link-text">LinkedIn</span>
   </a>
-  <a href="https://github.com/MichaelCusackNelkin?tab=repositories" class="about-link" rel="" target="">
+  <a href="https://github.com/MichaelCusackNelkin?tab=repositories" class="about-link" rel="noopener" target="_blank">
     <i class="bi bi-github"></i>
      <span class="about-link-text">GitHub</span>
   </a>
 </div>
-      <div class="about-contents"><main class="content" id="quarto-document-content">
-<p>I am a master’s student in the <a href="https://www.math.columbia.edu/mafn/">Mathematics of Finance (MAFN)</a> program at Columbia University, graduating in December 2026. Prior to joining Columbia, I was a Strategy and Analytics Analyst at Deloitte Consulting LLP for three years. I pride myself on multidisciplinary thinking and I am interested in a career that makes use of my technical, analytical, and communication skills. My research experience includes fast-forecasting, covariance estimation, portfolio optimization, and adaptive execution strategies. My interest in discretionary investing focuses on finding knowably powerful businesses and compounding with them over the long-term (e.g.&nbsp;Costco, Amazon, Trader Joe’s, BYD, Wise, etc.). My favorite things to do outside of work are to <a href="./reading.html">read</a>, listen to the <a href="https://www.acquired.fm/">Acquired Podcast</a>, go bouldering, and enjoy life with my <span class="wife">wife</span> and <span class="puppy">puppy</span>.</p>
+  </div>
+  <div class="about-contents"><main class="content" id="quarto-document-content">
+<p>I am a master’s student in the <a href="https://www.math.columbia.edu/mafn/">Mathematics of Finance (MAFN)</a> program at Columbia University, graduating in December 2026. Prior to joining Columbia, I worked as a Strategy and Analytics Analyst at Deloitte Consulting LLP for three years, and as a Financial Analyst Intern at DLA Piper and a Research Analyst Intern at Gilder, Gagnon, Howe &amp; Co.&nbsp;</p>
+<p>I pride myself on multidisciplinary thinking and I am interested in an investing career that makes use of my combination of analytical and communication skills. My research experience includes fundamental equity analysis in the video game industry and in private investments, as well as quantitative research statistical arbitrage and optimal execution. My interest in fundamental investing focuses on a value-based appraoch to finding knowably powerful businesses and compounding with them over the long-term (e.g.&nbsp;Costco, Amazon, Trader Joe’s, BYD, Wise, etc.).</p>
+<p>My favorite things to do outside of work are to <a href="./reading.html">read</a>, listen to the <a href="https://www.acquired.fm/">Acquired Podcast</a>, go bouldering, and enjoy life with my <span class="wife">wife</span> and <span class="puppy">puppy</span>.</p>
 
 
 </main></div>
-    </div>
-    <img src="images/IMG_9747.jpeg" class="about-image
-  rounded " style="width: 15em;">
-  </div>
 </div>
  <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -235,6 +236,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
